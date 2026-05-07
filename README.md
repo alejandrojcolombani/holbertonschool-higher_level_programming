@@ -1,0 +1,1 @@
+This project introduces the fundamentals of Python programming and helps us become comfortable with writing, running, and styling Python code using industry standards.
