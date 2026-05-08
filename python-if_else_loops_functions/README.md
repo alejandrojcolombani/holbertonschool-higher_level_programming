@@ -1,0 +1,1 @@
+This project introduces fundamental Python programming concepts focused on control flow, loops, functions, variables, and coding style.
