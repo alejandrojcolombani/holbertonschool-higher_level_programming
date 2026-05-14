@@ -1,0 +1,2 @@
+This project introduces Python data structures, mainly lists and tuples.  
+It covers how to create and manipulate lists, use list methods, work with tuples, understand sequences, and apply list comprehensions.
