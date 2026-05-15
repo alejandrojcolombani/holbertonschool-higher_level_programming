@@ -1,0 +1,1 @@
+This project introduces Python sets, dictionaries, lambda functions, and functional programming tools such as `map`, `filter`, and `reduce`.
