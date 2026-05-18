@@ -5,10 +5,11 @@ This file tests the function text_indentation.
 Normal text
 >>> text_indentation("Hello. How are you? I am fine:")
 Hello.
-
+<BLANKLINE>
 How are you?
-
+<BLANKLINE>
 I am fine:
+<BLANKLINE>
 
 Empty string
 >>> text_indentation("")
@@ -18,10 +19,11 @@ String without punctuation
 Hello world
 
 Text with spaces
->>> text_indentation(" Hello.  World? ")
+>>> text_indentation(" Hello. World? ")
 Hello.
-
+<BLANKLINE>
 World?
+<BLANKLINE>
 
 Non-string argument
 >>> text_indentation(12)
