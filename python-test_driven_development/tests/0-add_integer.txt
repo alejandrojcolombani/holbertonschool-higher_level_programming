@@ -45,3 +45,15 @@ Test dictionary argument
 Traceback (most recent call last):
 ...
 TypeError: a must be an integer
+
+Test float overflow
+>>> add_integer(float("inf"), 1)
+Traceback (most recent call last):
+...
+OverflowError: cannot convert float infinity to integer
+
+Test NaN
+>>> add_integer(float("nan"), 1)
+Traceback (most recent call last):
+...
+ValueError: cannot convert float NaN to integer
