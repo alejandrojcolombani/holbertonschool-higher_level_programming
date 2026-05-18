@@ -19,11 +19,12 @@ String without punctuation
 Hello world
 
 Text with spaces
->>> text_indentation(" Hello. World? ")
+>>> text_indentation(" Hello. World? Done ")
 Hello.
 <BLANKLINE>
 World?
 <BLANKLINE>
+Done
 
 Non-string argument
 >>> text_indentation(12)
