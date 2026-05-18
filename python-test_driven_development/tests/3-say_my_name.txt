@@ -11,7 +11,7 @@ My name is Walter White
 
 Default last name
 >>> say_my_name("Bob")
-My name is Bob
+My name is Bob 
 
 First name is not a string
 >>> say_my_name(12, "White")
