@@ -1,0 +1,2 @@
+This project introduces error and exception handling in Python.  
+It focuses on understanding the difference between errors and exceptions, how to handle exceptions correctly, and how to create safer Python programs using `try`, `except`, `finally`, and `raise`.
