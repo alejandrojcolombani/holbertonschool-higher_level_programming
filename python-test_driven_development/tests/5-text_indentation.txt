@@ -23,7 +23,6 @@ Text with spaces
 Hello.
 <BLANKLINE>
 World?
-<BLANKLINE>
 
 Non-string argument
 >>> text_indentation(12)
