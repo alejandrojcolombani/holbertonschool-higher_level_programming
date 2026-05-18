@@ -44,3 +44,7 @@ Division by zero
 Traceback (most recent call last):
 ...
 ZeroDivisionError: division by zero
+
+Division by positive infinity
+>>> matrix_divided([[1, 2], [3, 4]], float("inf"))
+[[0.0, 0.0], [0.0, 0.0]]
