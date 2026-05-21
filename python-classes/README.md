@@ -1,0 +1,2 @@
+This project introduces Object-Oriented Programming (OOP) in Python.  
+The goal is to understand how classes and objects work, how attributes and methods are used, and how Python handles encapsulation, abstraction, properties, and object behavior.
