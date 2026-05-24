@@ -1,0 +1,2 @@
+This project continues the study of Object-Oriented Programming (OOP) in Python.  
+It focuses on classes, objects, instance attributes, class attributes, properties, methods, `__str__`, `__repr__`, class methods, static methods, and data encapsulation.
