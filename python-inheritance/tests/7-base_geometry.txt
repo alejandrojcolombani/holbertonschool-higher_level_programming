@@ -1,0 +1,49 @@
+This file tests the BaseGeometry class.
+
+>>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
+>>> bg = BaseGeometry()
+
+Test area method
+>>> bg.area()
+Traceback (most recent call last):
+...
+Exception: area() is not implemented
+
+Valid integer
+>>> bg.integer_validator("width", 10)
+
+Zero value
+>>> bg.integer_validator("width", 0)
+Traceback (most recent call last):
+...
+ValueError: width must be greater than 0
+
+Negative value
+>>> bg.integer_validator("height", -5)
+Traceback (most recent call last):
+...
+ValueError: height must be greater than 0
+
+Float value
+>>> bg.integer_validator("age", 3.5)
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
+
+String value
+>>> bg.integer_validator("name", "10")
+Traceback (most recent call last):
+...
+TypeError: name must be an integer
+
+List value
+>>> bg.integer_validator("size", [1, 2])
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+None value
+>>> bg.integer_validator("value", None)
+Traceback (most recent call last):
+...
+TypeError: value must be an integer
