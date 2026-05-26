@@ -1,0 +1,1 @@
+This project introduces inheritance in Python and expands Object-Oriented Programming concepts.
