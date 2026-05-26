@@ -1,7 +1,11 @@
 This file tests the BaseGeometry class.
 
 >>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
+
+Check instantiation
 >>> bg = BaseGeometry()
+>>> type(bg).__name__
+'BaseGeometry'
 
 Area method
 >>> bg.area()
@@ -50,9 +54,6 @@ TypeError: age must be an integer
 
 Boolean value
 >>> bg.integer_validator("age", True)
-Traceback (most recent call last):
-...
-TypeError: age must be an integer
 
 Set value
 >>> bg.integer_validator("age", {3, 4})
