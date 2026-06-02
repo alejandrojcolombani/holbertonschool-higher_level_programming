@@ -1,0 +1,1 @@
+This project introduces file handling and JSON manipulation in Python. It covers how to open, read, write, and manage files efficiently while following Python best practices.
