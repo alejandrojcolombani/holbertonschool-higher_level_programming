@@ -1,0 +1,1 @@
+This project introduces the fundamentals of relational databases and SQL
