@@ -1,0 +1,1 @@
+This project expands on the fundamentals of SQL by introducing database users and permissions, constraints, relationships between tables, and more advanced querying techniques.
