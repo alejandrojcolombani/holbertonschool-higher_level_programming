@@ -1,0 +1,1 @@
+This project introduces the interaction between Python and MySQL databases
