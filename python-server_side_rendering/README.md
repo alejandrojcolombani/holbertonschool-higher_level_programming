@@ -1,0 +1,1 @@
+This project introduces server-side rendering using Python, Flask, and the Jinja templating engine.
