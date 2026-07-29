@@ -1,0 +1,1 @@
+This project is part of the Holberton School Higher Level Programming curriculum. The goal is to understand one of the most important concepts in Python: everything is an object.
